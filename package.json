@@ -1,11 +1,16 @@
 {
   "name": "react-seo-meta",
   "version": "1.0.0",
-  "description": "A React component for managing SEO metadata.",
+  "description": "A React component library for managing SEO metadata such as page titles, meta descriptions, canonical URLs, and Open Graph tags.",
   "main": "lib/index.js",
+  "module": "lib/index.js", 
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "webpack",
-    "test": "jest"
+    "build": "webpack --config webpack.config.js",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
@@ -23,5 +28,24 @@
     "webpack": "^5.56.0",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/react-seo-meta.git"
+  },
+  "keywords": [
+    "react",
+    "seo",
+    "metadata",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/react-seo-meta/issues"
+  },
+  "homepage": "https://github.com/your-username/react-seo-meta#readme",
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
