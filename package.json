@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A React component library for managing SEO metadata such as page titles, meta descriptions, canonical URLs, and Open Graph tags.",
   "main": "lib/index.js",
-  "module": "lib/index.js", 
+  "module": "lib/index.js",
   "files": [
     "lib"
   ],
@@ -47,5 +47,8 @@
   "homepage": "https://github.com/your-username/react-seo-meta#readme",
   "engines": {
     "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
   }
 }
