@@ -1,6 +1,6 @@
 # React-seo-meta
 
-**react-seo-meta** is a React component library designed to simplify the management of SEO (Search Engine Optimization) and metadata for React applications. This library enables developers to dynamically set and manage essential metadata on their web pages, which is crucial for improving search engine rankings and enhancing the appearance of web pages when shared on social media.
+**React-seo-meta** is a React component library designed to simplify the management of SEO (Search Engine Optimization) and metadata for React applications. This library enables developers to dynamically set and manage essential metadata on their web pages, which is crucial for improving search engine rankings and enhancing the appearance of web pages when shared on social media.
 
 ## Features
 
